@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.preprocessing import StandardScaler
+import app
 
-app = "app.py"
 
 # Set the page layout to wide
 st.set_page_config(layout="wide")
