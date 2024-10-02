@@ -1,9 +1,26 @@
 import streamlit as st
 import time
 import pandas as pd
+import numpy as np
+import pickle
 from sklearn.preprocessing import StandardScaler
 
 import app
+
+# Backend: Function to load model and make predictions
+def load_model():
+    with open('Random_Forests.pkl', 'rb') as file:
+        model = pickle.load(file)
+    return model
+
+# Prediction function
+def predict_loan_default(input_data):
+    model = load_model()
+    # Make prediction using the input data (it should be a DataFrame or array)
+    prediction = model.predict(input_data)[0]
+    return prediction
+
+
 
 # Set the page layout to wide
 st.set_page_config(layout="wide")
