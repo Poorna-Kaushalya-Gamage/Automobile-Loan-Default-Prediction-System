@@ -22,7 +22,7 @@ with tab1:
         st.session_state.images = [
             "static/Car1.png",
             "static/Car3.jpg",
-            "static/Car2.png",
+            "static/car2.png",
         ]
         st.session_state.descriptions = [
             " ",
