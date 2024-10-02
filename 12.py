@@ -286,7 +286,7 @@ with tab2:
         )
 
         # Add a new image that covers the full area of the prediction form
-        st.image("C:/Users/USER/Desktop/FDM Project/FDM Project/static/topup.jpg",
+        st.image("static/topup.jpg",
                  use_column_width=True,
                  caption="Full Area Vehicle Loan Default Prediction", output_format='auto')
 
