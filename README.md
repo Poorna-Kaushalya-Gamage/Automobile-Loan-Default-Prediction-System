@@ -65,6 +65,11 @@ With rising economic challenges such as inflation, financial crises, and increas
    python 12.py
    ```
 
+### Demo
+```
+https://automobile-loan-default-prediction-system-xujqfzrxxmbapkvhz3hu.streamlit.app/
+```
+
 ### Ui Designs
 ![UI 1](https://github.com/Poorna-Kaushalya-Gamage/Automobile-Loan-Default-Prediction-System/blob/f2373d445e90ddef5480b3767bef9bff7542b19e/static/UI%201.png)
 ![UI 2](https://github.com/Poorna-Kaushalya-Gamage/Automobile-Loan-Default-Prediction-System/blob/f2373d445e90ddef5480b3767bef9bff7542b19e/static/UI%202.png)
